@@ -168,6 +168,10 @@ body {
     border-bottom: 3px solid #212121;
 }
 
+.featured-new .active-link:hover {
+    border-bottom: 3px solid #212121;
+}
+
 .explore-all {
     color: #212121;
     font-size: 18px;
@@ -284,7 +288,7 @@ body {
 }
 
 .promo-text h2 {
-    color:  #212121;
+    color: #212121;
     font-size: 36px;
     font-weight: 700;
 }
@@ -325,7 +329,7 @@ body {
     margin-top: 10px;
 }
 
-.trending-prod p{
+.trending-prod p {
     padding: 10px 13px;
     padding-top: 120px;
     display: block;
@@ -336,14 +340,13 @@ body {
     margin-bottom: 64px;
 }
 
-
 .tr-items {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-.tr-items a{
+.tr-items a {
     display: block;
 }
 
@@ -434,11 +437,12 @@ body {
     top: 0;
     left: 40px;
 }
-    
+
 .bottom-items {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 120px;
 }
 
 .bottom-item-1 {
@@ -447,6 +451,107 @@ body {
     height: 570px;
 }
 
-.bottom-items-right {
-    margin-left: 30px;
+.two-items {
+    width: 270px;
+}
+
+.upper-item {
+    padding-bottom: 30px;
+}
+
+.bottom-text {
+    padding-top: 186px;
+    padding-left: 31px;
+}
+
+.mobile {
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+}
+
+.mobile-text {
+    padding-top: 125px;
+    width: 500px;
+}
+
+.mobile-text h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #6c6c6c;
+}
+
+.mobile-text h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+
+.mobile-text p {
+    width: 458px;
+    color: #6c6c6c;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.app-links {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    height: 384px;
+    padding-top: 120px;
+}
+
+.footer .cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .col {
+    width: 221px;
+}
+
+.footer h2 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.footer .col p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer .mid {
+    width: 422px;
+}
+
+.footer .mid .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .mid .text p {
+    width: 187px;
+}
+
+.footer .mid p {
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
 }
