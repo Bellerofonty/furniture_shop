@@ -445,9 +445,7 @@ body {
     align-items: center;
 }
 
-.tr-items .item:hover {
-    
-}
+.tr-items .item:hover {}
 
 .trending {
     margin-bottom: 120px;
@@ -617,7 +615,6 @@ body {
 
 .footer {
     background-color: #f7f7f7;
-    height: 384px;
     padding-top: 120px;
 }
 
@@ -627,7 +624,7 @@ body {
 }
 
 .footer .col {
-    width: 221px;
+    width: 370px;
 }
 
 .footer h2 {
@@ -647,11 +644,31 @@ body {
 
 .footer .mid {
     width: 422px;
+    margin: 0 78px;
 }
 
 .footer .mid .text {
+    width: 422px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .links a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.footer .links a:hover {
+    color: rgb(108, 108, 108);
 }
 
 .footer .mid .text p {
@@ -662,4 +679,78 @@ body {
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
+}
+
+.col form {
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 368px;
+    height: 46px;
+    margin-top: 26px;
+    position: relative;
+}
+
+.email {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 0 40px 0 20px;
+    border: none;
+    width: 308px;
+    height: 46px;
+}
+
+.plane-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    background-color: transparent;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.plane-button:hover {
+    color: rgb(33, 33, 33);
+}
+
+.last-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 59px 0 30px 0;
+}
+
+.last-row .buttons-pic {
+    position: relative;
+}
+
+.last-row .buttons {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 129px;
+    height: 28px;
+}
+
+.last-row button {
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.last-row button:hover {
+    box-shadow: 0px 2px 10px 0.15px rgba(33, 33, 33, 0.7);
 }
